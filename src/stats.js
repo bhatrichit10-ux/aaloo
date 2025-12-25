@@ -10,24 +10,19 @@ function get() {
 }
 
 function set(key, value) {
-    if(value < 0) {
-     value = 0
-    }
-    if(value > 100) {
-        value = 100
-    }
+  if (key !== "lastRewardCheck") {
+    if (value < 0) value = 0
+    if (value > 100) value = 100
+  }
+
   const stats = get()
   stats[key] = value
 
-  fs.writeFileSync(
-    statsD,
-    JSON.stringify(stats, null, 2)
-  )
-
+  fs.writeFileSync(statsD, JSON.stringify(stats, null, 2))
   return stats
 }
 
 module.exports = {
-    get,
-    set
+  get,
+  set
 }
