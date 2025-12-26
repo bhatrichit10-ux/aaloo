@@ -6,5 +6,5 @@
 - Click on Continue Working in Github Codepspaces
 - CLick on The 2GB Ram option on the top searchbar
 - Wait for a few seconds
-- Go to its terminal and write `./install.sh`
+- Go to its terminal and write ` bash ./install.sh`
 - Run using `node .`
