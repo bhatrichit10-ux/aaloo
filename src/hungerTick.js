@@ -1,6 +1,6 @@
 const { get } = require("./stats");
 const { incHunger } = require("./hunger");
-
+// HUNGER TICK FUNCTION TO INCREASE HUNGER OVER TIME
 function hungerTick() {
   const stats = get();
 

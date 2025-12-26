@@ -27,5 +27,8 @@
   "homepage": "https://github.com/bhatrichit10-ux/aaloo#readme",
   "devDependencies": {
     "prettier": "^3.7.4"
+  },
+  "dependencies": {
+    "inquirer": "^12.11.1"
   }
 }

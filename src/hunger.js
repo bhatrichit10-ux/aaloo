@@ -1,5 +1,5 @@
 const { get, set } = require("./stats");
-
+// just a alias to modify hunger stat
 function incHunger(x) {
   const stats = get();
   return set("hunger", stats.hunger + x).hunger;
