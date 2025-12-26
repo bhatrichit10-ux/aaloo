@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/bhatrichit10-ux/aaloo/issues"
   },
-  "homepage": "https://github.com/bhatrichit10-ux/aaloo#readme"
+  "homepage": "https://github.com/bhatrichit10-ux/aaloo#readme",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
 }

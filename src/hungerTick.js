@@ -1,15 +1,15 @@
-const { get } = require("./stats")
-const { incHunger } = require("./hunger")
+const { get } = require("./stats");
+const { incHunger } = require("./hunger");
 
 function hungerTick() {
-  const stats = get()
+  const stats = get();
 
   if (stats.activity === "sleeping") {
-    return "Sleeping. Hunger unchanged."
+    return "Sleeping. Hunger not gonna increase";
   }
 
-  incHunger(5)
-  return "Potato got a bit hungrier."
+  incHunger(5);
+  return "Potato is hungry!";
 }
 
-module.exports = { hungerTick }
+module.exports = { hungerTick };

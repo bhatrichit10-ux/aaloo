@@ -1,20 +1,19 @@
-const { get } = require("./src/stats")
-const { hungerTick } = require("./src/hungerTick")
-const { applyTimeReward } = require("./src/timeReward")
-const { actions } = require("./src/actions")
-const { food } = require("./src/food")
+const { get } = require("./src/stats");
+const { hungerTick } = require("./src/hungerTick");
+const { applyTimeReward } = require("./src/timeReward");
+const { actions } = require("./src/actions");
+const { food } = require("./src/food");
 
-applyTimeReward()
-hungerTick()
+applyTimeReward();
+hungerTick();
 
-console.log("Current Stats:", get())
+console.log("Current Stats:", get());
 
-const act = actions()
-const eat = food()
+const act = actions();
+const eat = food();
 
-console.log(act.sleep())
-console.log(eat.apple())
-console.log(act.play())
+console.log(act.sleep());
+console.log(eat.apple());
+console.log(act.play());
 
-console.log("Updated Stats:", get())
- 
+console.log("Updated Stats:", get());
