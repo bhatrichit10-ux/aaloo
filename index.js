@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { get } = require("./src/stats");
 const { hungerTick } = require("./src/hungerTick");
 const { applyTimeReward } = require("./src/timeReward");

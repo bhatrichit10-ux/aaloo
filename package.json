@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "a virtual pet potato that performs random culinary tasks when fed!",
   "main": "index.js",
+  "bin": {
+    "aaloo": "./index.js"
+  },
   "scripts": {
     "test": "npm test"
   },
@@ -12,8 +15,6 @@
   },
   "keywords": [
     "potato",
-    "virtual",
-    "pet",
     "virtual",
     "pet",
     "game",

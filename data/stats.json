@@ -1,8 +1,8 @@
 {
   "name": "aaloo",
-  "hunger": 0,
-  "energy": 100,
+  "hunger": 8,
+  "energy": 70,
   "mood": 100,
-  "activity": "idle",
-  "lastRewardCheck": 0
+  "activity": "sleeping",
+  "lastRewardCheck": 1766805956730
 }
