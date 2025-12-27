@@ -1,4 +1,4 @@
-const inquirer = require('inquirer')
+const inquirer = require("inquirer");
 
 async function ask(q, utype, ch) {
   const ans = await inquirer.default.prompt([
@@ -7,11 +7,11 @@ async function ask(q, utype, ch) {
       name: "value",
       message: `${q} > `,
       mask: "*",
-      choices: ch
-    }
-  ])
+      choices: ch,
+    },
+  ]);
 
-  return ans.value
+  return ans.value;
 }
 
-module.exports = { ask }
+module.exports = { ask };

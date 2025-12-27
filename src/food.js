@@ -27,7 +27,11 @@ function list() {
     { name: "Apple", hungerRestore: 15, effect: food().apple },
     { name: "Rice", hungerRestore: 2, effect: food().rice },
     { name: "Sus Stew", hungerRestore: 50, effect: food().susStew },
-    { name: "Poisonous Potato", hungerRestore: -15, effect: food().poisonousPotato },
+    {
+      name: "Poisonous Potato",
+      hungerRestore: -15,
+      effect: food().poisonousPotato,
+    },
   ];
-} 
-module.exports = { food, list };  
+}
+module.exports = { food, list };

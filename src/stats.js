@@ -11,7 +11,7 @@ const DEFAULT_STATS = {
   energy: 100,
   mood: 100,
   activity: "idle",
-  lastRewardCheck: 0
+  lastRewardCheck: 0,
 };
 
 function ensureData() {
@@ -20,10 +20,7 @@ function ensureData() {
   }
 
   if (!fs.existsSync(statsD)) {
-    fs.writeFileSync(
-      statsD,
-      JSON.stringify(DEFAULT_STATS, null, 2)
-    );
+    fs.writeFileSync(statsD, JSON.stringify(DEFAULT_STATS, null, 2));
   }
 }
 
@@ -44,15 +41,12 @@ function set(key, value) {
   const stats = get();
   stats[key] = value;
 
-  fs.writeFileSync(
-    statsD,
-    JSON.stringify(stats, null, 2)
-  );
+  fs.writeFileSync(statsD, JSON.stringify(stats, null, 2));
 
   return stats;
 }
 
 module.exports = {
   get,
-  set
+  set,
 };

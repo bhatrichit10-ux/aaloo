@@ -8,25 +8,29 @@
 ### 🏠 [Homepage](https://github.com/bhatrichit10-ux/aaloo#readme)
 
 ## Install
+
 ```
 npm i -g aaloo
 aaloo
 ```
+
 ## Images
-![Some random images of usage](assets/1.png) <br>
----
-![Some random images of usage](assets/2.png) <br>
----
-![Some random images of usage](assets/3.png) <br>
----
-![Some random images of usage](assets/4.png) <br>
----
-![Some random images of usage](assets/5.png) 
+
+## ![Some random images of usage](assets/1.png) <br>
+
+## ![Some random images of usage](assets/2.png) <br>
+
+## ![Some random images of usage](assets/3.png) <br>
+
+## ![Some random images of usage](assets/4.png) <br>
+
+![Some random images of usage](assets/5.png)
+
 ## Author
 
 👤 **Richit Bhat**
 
-* Github: [@bhatrichit10-ux](https://github.com/bhatrichit10-ux)
+- Github: [@bhatrichit10-ux](https://github.com/bhatrichit10-ux)
 
 ## Show your support
 
@@ -37,4 +41,4 @@ Give a ⭐️ if this project helped you!
 Copyright © 2025 [Richit Bhat](https://github.com/bhatrichit10-ux).<br />
 This project is [ISC](https://github.com/bhatrichit10-ux/aaloo/blob/master/LICENSE) licensed.
 
-***
+---
