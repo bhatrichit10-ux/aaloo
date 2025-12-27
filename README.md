@@ -9,10 +9,8 @@
 
 ## Install
 ```
-git clone https://github.com/bhatrichit10-ux/aaloo
-cd aaloo
-npm install
-node .
+npm i -g aaloo
+aaloo
 ```
 ## Images
 ![Some random images of usage](assets/1.png) <br>
